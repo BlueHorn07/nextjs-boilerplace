@@ -1,17 +1,3 @@
-# NextJS Boilerplate
-
-## Style
-
-```bash
-npm install sass
-npm install styled-components
-npm install -D @types/styled-components
-npm install -D babel-plugin-styled-components
-```
-
-Add `/pages/_document.tsx`
-
-```tsx
 import Document, { DocumentContext } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
@@ -37,14 +23,3 @@ export default class MyDocument extends Document {
     }
   }
 }
-```
-
-Add `/babelrc.json`. This will resolve mobile view rendering issue.
-
-```json
-{
-  "presets": ["next/babel"],
-  "plugins": ["babel-plugin-styled-components"]
-}
-```
-

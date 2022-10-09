@@ -1,8 +1,10 @@
-import React, { FunctionComponent } from 'react';
+import React, { ReactNode } from 'react';
 import styled from 'styled-components';
 import StyleTheme from '../styles/theme';
 
-const PageLayout: FunctionComponent = ({ children }: React.PropsWithChildren<{}>) => {
+const PageLayout = ({ children }: {
+  children: ReactNode
+}) => {
   return (
     <ContentWrapper>
       <ContentDiv>

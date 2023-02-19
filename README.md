@@ -1,5 +1,12 @@
 # NextJS Boilerplate
 
+## Docker
+
+```bash
+docker build . -t nextjs-boilerplate
+docker compose -f docker-compose.yaml up -d
+```
+
 ## Style
 
 ```bash

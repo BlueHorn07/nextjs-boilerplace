@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: nextjs-boilerplate
+    container_name: nextjs-web
+    ports:
+      - "3000:3000"

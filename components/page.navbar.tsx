@@ -1,6 +1,6 @@
 import { FunctionComponent } from 'react';
 import Link from 'next/link';
-import styled from "styled-components"
+import styled from 'styled-components'
 import StyleTheme from '../styles/theme';
 
 const PageNavbar: FunctionComponent = () => {

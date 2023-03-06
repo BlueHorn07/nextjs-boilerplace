@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react';
-import styled from "styled-components"
+import styled from 'styled-components'
 import StyleTheme from '../styles/theme';
 
 const PageFooter: FunctionComponent = () => {

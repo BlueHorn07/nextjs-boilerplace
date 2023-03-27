@@ -1,7 +1,7 @@
 import axios from "axios";
 import {useEffect, useState} from "react";
 
-const YesNoAxiosCall = () => {
+const YesNoAxiosExample = () => {
   const [yesOrNo, setYesOrNo] = useState('');
 
   useEffect(() => {
@@ -24,4 +24,4 @@ const YesNoAxiosCall = () => {
   )
 }
 
-export default YesNoAxiosCall;
+export default YesNoAxiosExample;

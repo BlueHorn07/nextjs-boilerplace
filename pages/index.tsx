@@ -3,7 +3,7 @@ import Head from 'next/head'
 import PageFooter from '@/components/page.footer'
 import PageLayout from '@/components/page.layout'
 import PageNavbar from '@/components/page.navbar'
-import YesNoAxiosCall from "@/components/yes-no-axios-call";
+import YesNoAxiosExample from "@/components/yes-no.axios.example";
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 
       <PageLayout>
         <h1>Fill out the contents!</h1>
-        <YesNoAxiosCall/>
+        <YesNoAxiosExample/>
       </PageLayout>
 
       <PageFooter/>

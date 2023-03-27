@@ -2,7 +2,7 @@ import axios from "axios";
 import {useEffect, useState} from "react";
 
 const YesNoAxiosExample = () => {
-  const [yesOrNo, setYesOrNo] = useState('');
+  const [yesOrNo, setYesOrNo] = useState('Not Fetched');
 
   useEffect(() => {
     const url = "https://yesno.wtf/api";
@@ -18,9 +18,9 @@ const YesNoAxiosExample = () => {
   }, [])
 
   return (
-    <h2>
+    <p>
       {yesOrNo}
-    </h2>
+    </p>
   )
 }
 
